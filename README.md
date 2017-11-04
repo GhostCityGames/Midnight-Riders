@@ -35,8 +35,10 @@ If you would like to build a custom copy of Midnight Riders, you will need [Pyth
 
 ```git clone https://github.com/GhostCityGames/Midnight-Riders```
 
-* Edit Midnight-Riders/source/index.rst
+* Edit [Midnight-Riders/source/index.rst](https://github.com/GhostCityGames/Midnight-Riders/blob/master/source/index.rst)
 
 * Build
 
 ```sphinx-build -b epub source build```
+
+* Open with calibre
