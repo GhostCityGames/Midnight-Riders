@@ -9,3 +9,27 @@ Midnight Riders is a pen and paper Role-Playing Game (RPG) that can be played wi
 Art © 2017 Nicole Dutram. Used with permission.
 
 Contact the artist via e-mail: dutram.nd@gmail.com.
+
+# Contributing to Midnight Riders
+
+We would love to hear from you!  Create [New Issues](https://github.com/GhostCityGames/Midnight-Riders/issues/new)
+with questions, problems, or solutions.
+
+See the [CONTRIBUTING.md file](https://github.com/GhostCityGames/Midnight-Riders/blob/master/CONTRIBUTING.md)
+for ways to make contributions.
+
+# Building Midnight Riders
+
+If you would like to build a custom copy of Midnight Riders, you will need [Python](https://www.python.org/) and [Sphinx](http://www.sphinx-doc.org/en/stable/).
+
+* [Directions for installing Sphinx](http://www.sphinx-doc.org/en/stable/install.html)
+
+* Clone this project.
+
+```git clone https://github.com/GhostCityGames/Midnight-Riders```
+
+* Edit Midnight-Riders/source/index.rst
+
+* Build
+
+```sphinx-build -b epub source build```
