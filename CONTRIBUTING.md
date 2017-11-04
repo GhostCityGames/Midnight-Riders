@@ -6,9 +6,9 @@ part of a published game!  The first publication date was November 3rd, 2017.
 ## First Steps towards a pull request
 
 * [Make a GitHub account](https://github.com/signup/free).
-* Check the [Issues page](https://github.com/TechnologyClassroom/dice-mechanic-sim/issues)
+* Check the [Issues page](https://github.com/GhostCityGames/Midnight-Riders/issues)
 for something you can contribute towards.
-  * If you do not see the item that you would like changed on those lists, submit a [new issue](https://github.com/TechnologyClassroom/dice-mechanic-sim/issues/new)
+  * If you do not see the item that you would like changed on those lists, submit a [new issue](https://github.com/GhostCityGames/Midnight-Riders/issues/new)
   for something that you would like to see changed.
 * Create a fork of the repository on GitHub.  This will redirect you to a new
 page titled YOURUSERNAME / Midnight-Riders.
