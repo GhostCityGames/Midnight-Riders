@@ -20,6 +20,8 @@ with questions, problems, or solutions.
 See the [CONTRIBUTING.md file](https://github.com/GhostCityGames/Midnight-Riders/blob/master/CONTRIBUTING.md)
 for ways to make contributions.
 
+Also, check out [DMS](https://github.com/GhostCityGames/dice-mechanic-sim), a simulator that playtests the game mechanics of Midnight Riders.
+
 # Building Midnight Riders
 
 If you would like to build a custom copy of Midnight Riders, you will need [Python](https://www.python.org/) and [Sphinx](http://www.sphinx-doc.org/en/stable/).
