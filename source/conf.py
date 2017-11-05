@@ -115,7 +115,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'MidnightRidersdoc'
+htmlhelp_basename = 'MidnightRiders'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -142,7 +142,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'MidnightRiders.tex', 'Midnight Riders Documentation',
+    (master_doc, 'MidnightRiders.tex', 'Midnight Riders',
      'Astrid Cook-Dail, Stephen Dietrich, R. Scott Frawley, and Michael McMahon', 'rpg'),
 ]
 
@@ -152,7 +152,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'midnightriders', 'Midnight Riders Documentation',
+    (master_doc, 'midnightriders', 'Midnight Riders',
      [author], 1)
 ]
 
@@ -192,4 +192,17 @@ epub_exclude_files = ['search.html']
 
 # epub cover image
 epub_cover = ('_static/mr-cover.png', '')
+
+# epub index
+epub_use_index = False
+
+# If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
+#
+html_show_sphinx = False
+
+# If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
+#
+# html_show_copyright = False
+
+html_title = 'Midnight Riders'
 
