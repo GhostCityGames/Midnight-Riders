@@ -175,7 +175,7 @@ texinfo_documents = [
 # Bibliographic Dublin Core info.
 epub_title = project
 epub_author = author
-epub_publisher = author
+epub_publisher = 'Ghost City Games' 
 epub_copyright = copyright
 
 # The unique identifier of the text. This can be a ISBN number
@@ -190,4 +190,6 @@ epub_copyright = copyright
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
 
+# epub cover image
+epub_cover = ('_static/mr-cover.png', '')
 
