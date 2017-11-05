@@ -30,7 +30,8 @@ Also, check out [DMS](https://github.com/GhostCityGames/dice-mechanic-sim), a si
 If you would just like to download Midnight Riders without building, check out [DriveThruRPG](https://www.drivethrurpg.com/)
 or our [releases page](https://github.com/GhostCityGames/Midnight-Riders/releases).
 
-If you would like to build a custom copy of Midnight Riders, you will need [Python](https://www.python.org/) and [Sphinx](http://www.sphinx-doc.org/en/stable/).
+If you would like to build a custom copy of Midnight Riders, you will need [Python](https://www.python.org/),
+[Sphinx](http://www.sphinx-doc.org/en/stable/),and [calibre](https://calibre-ebook.com/).
 
 * [Directions for installing Sphinx](http://www.sphinx-doc.org/en/stable/install.html)
 
@@ -40,8 +41,9 @@ If you would like to build a custom copy of Midnight Riders, you will need [Pyth
 
 * Edit [Midnight-Riders/source/index.rst](https://github.com/GhostCityGames/Midnight-Riders/blob/master/source/index.rst)
 
-* Build
+* Build the epub.
 
 ```sphinx-build -b epub source build```
 
-* Open with calibre
+* Open the resulting [epub file](https://github.com/GhostCityGames/Midnight-Riders/blob/master/build/MidnightRiders.epub)
+with calibre.
