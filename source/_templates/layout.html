@@ -1,8 +1,11 @@
+{% block relbar1 %}{% endblock %}
+
 {% extends "!layout.html" %}
 {%- block footer %}
+{{ super() }}
   <div class="footer">
     <span class="creativecommons">
-      <a href="https://creativecommons.org/licenses/by-sa/4.0/" >
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/">
         <img src="{{ pathto("_static/ccby-sa4.0intl88x31.png", 1) }}"
           border="0" alt="Creative Commons License"/>
       </a> Midnight Riders is licensed under a 
@@ -11,5 +14,4 @@
       </a>
     </span>
   </div>
-{{ super() }}
 {%- endblock %}
