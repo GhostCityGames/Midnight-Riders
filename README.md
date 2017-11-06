@@ -47,7 +47,7 @@ If you would like to build a custom copy of Midnight Riders, you will need [Pyth
 
 ```sphinx-build -b epub source build```
 
-* Convert epub to mobi
+* Convert epub to mobi.
 
 ```ebook-convert build/MidnightRiders.epub build/MidnightRiders.mobi```
 
