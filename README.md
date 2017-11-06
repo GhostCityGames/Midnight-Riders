@@ -35,15 +35,23 @@ If you would like to build a custom copy of Midnight Riders, you will need [Pyth
 
 * [Directions for installing Sphinx](http://www.sphinx-doc.org/en/stable/install.html)
 
+* Open a terminal.
+
 * Clone this project.
 
 ```git clone https://github.com/GhostCityGames/Midnight-Riders```
 
 * Edit [Midnight-Riders/source/index.rst](https://github.com/GhostCityGames/Midnight-Riders/blob/master/source/index.rst)
 
-* Build the epub.
+* Build the epub file.
 
 ```sphinx-build -b epub source build```
 
+* Convert epub to mobi.
+
+```ebook-convert build/MidnightRiders.epub build/MidnightRiders.mobi```
+
 * Open the resulting [epub file](https://github.com/GhostCityGames/Midnight-Riders/blob/master/build/MidnightRiders.epub)
 with calibre.
+
+```ebook-viewer build/MidnightRiders.epub```
