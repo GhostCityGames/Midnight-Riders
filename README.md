@@ -27,7 +27,7 @@ Also, check out [DMS](https://github.com/GhostCityGames/dice-mechanic-sim), a si
 
 # Building Midnight Riders
 
-If you would just like to download Midnight Riders without building, check out [DriveThruRPG](https://www.drivethrurpg.com/)
+If you would just like to download Midnight Riders without building, check out [DriveThruRPG](http://www.drivethrurpg.com/product/225714/Midnight-Riders)
 or our [releases page](https://github.com/GhostCityGames/Midnight-Riders/releases).
 
 If you would like to build a custom copy of Midnight Riders, you will need [Python](https://www.python.org/),
