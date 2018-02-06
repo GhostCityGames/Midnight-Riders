@@ -28,6 +28,7 @@ change, the repository can be deleted.
 
 ## Ideas for pull requests
 
+* Translate to a new language
 * Submit your own concept art
   * What does your character look like?
 * Submit your favorite house rules
